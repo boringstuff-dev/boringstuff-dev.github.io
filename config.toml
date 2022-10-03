@@ -1,0 +1,4 @@
+baseURL = 'https://boringstuff-dev.github.io/'
+languageCode = 'en-us'
+title = 'Gianmarco Sciortino - Blog'
+theme = "ananke"
