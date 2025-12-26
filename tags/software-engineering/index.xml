@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software Engineering on Gianmarco Sciortino</title><link>https://boringstuff-dev.github.io/tags/software-engineering/</link><description>Recent content in Software Engineering on Gianmarco Sciortino</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 26 Dec 2025 11:00:00 +0200</lastBuildDate><atom:link href="https://boringstuff-dev.github.io/tags/software-engineering/index.xml" rel="self" type="application/rss+xml"/><item><title>Agentic SDLC: How AI Agents Are Transforming the Software Development Lifecycle</title><link>https://boringstuff-dev.github.io/posts/agentic-sdlc/</link><pubDate>Fri, 26 Dec 2025 11:00:00 +0200</pubDate><guid>https://boringstuff-dev.github.io/posts/agentic-sdlc/</guid><description>&lt;h2 id="the-evolution-of-software-development"&gt;
+ The Evolution of Software Development
+ &lt;a class="heading-link" href="#the-evolution-of-software-development"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;The Software Development Lifecycle (SDLC) has evolved dramatically over the past few decades. We&amp;rsquo;ve moved from waterfall to agile, from manual testing to CI/CD, from monoliths to microservices. But we&amp;rsquo;re now witnessing what might be the most significant transformation yet: the integration of autonomous AI agents throughout the entire development process.&lt;/p&gt;
+&lt;p&gt;Welcome to the &lt;strong&gt;Agentic SDLC&lt;/strong&gt; - where AI agents don&amp;rsquo;t just assist developers but actively participate as autonomous team members across planning, development, testing, deployment, and maintenance.&lt;/p&gt;</description></item></channel></rss>
