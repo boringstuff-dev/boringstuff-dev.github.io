@@ -1,0 +1,85 @@
+/* Split background for home page only */
+body.home-page {
+  background: linear-gradient(90deg, #000000 50%, #ffffff 50%) !important;
+}
+
+/* Ensure content has proper background */
+body.home-page .content {
+  background: transparent;
+}
+
+/* Override default body background for home page */
+body.home-page.colorscheme-light,
+body.home-page.colorscheme-dark,
+body.home-page.colorscheme-auto {
+  background: linear-gradient(90deg, #000000 50%, #ffffff 50%) !important;
+}
+
+/* Center content container with proper background */
+body.home-page .wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+/* Optional: Add a subtle divider line in the middle */
+body.home-page::before {
+  content: '';
+  position: fixed;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom,
+    rgba(128, 128, 128, 0.1),
+    rgba(128, 128, 128, 0.3) 50%,
+    rgba(128, 128, 128, 0.1)
+  );
+  z-index: 0;
+}
+
+/* Create gradient text color effect - light on left (black bg), dark on right (white bg) */
+body.home-page h1,
+body.home-page h2,
+body.home-page h3,
+body.home-page p,
+body.home-page a,
+body.home-page li,
+body.home-page span {
+  background: linear-gradient(90deg, #ffffff 0%, #ffffff 50%, #000000 50%, #000000 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* Icons need special handling */
+body.home-page .social-icons i,
+body.home-page .social-icons svg {
+  filter: drop-shadow(2px 0 0 white) drop-shadow(-2px 0 0 black);
+}
+
+/* Site title (Gianmarco Sciortino) - always white */
+body.home-page .navigation-title {
+  background: none !important;
+  -webkit-background-clip: unset !important;
+  background-clip: unset !important;
+  -webkit-text-fill-color: #ffffff !important;
+  color: #ffffff !important;
+}
+
+/* Navigation menu links (Blog, etc) - always black */
+body.home-page .navigation-link {
+  background: none !important;
+  -webkit-background-clip: unset !important;
+  background-clip: unset !important;
+  -webkit-text-fill-color: #000000 !important;
+  color: #000000 !important;
+}
+
+/* Make sure social icons inherit the gradient effect */
+body.home-page .social-links a {
+  background: linear-gradient(90deg, #ffffff 0%, #ffffff 50%, #000000 50%, #000000 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

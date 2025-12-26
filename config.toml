@@ -1,4 +1,49 @@
 baseURL = 'https://boringstuff-dev.github.io/'
 languageCode = 'en-us'
-title = 'Gianmarco Sciortino - Blog'
-theme = "ananke"
+title = 'Gianmarco Sciortino'
+theme = "hugo-coder"
+defaultContentLanguage = "en"
+enableEmoji = true
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark]
+    [markup.renderer]
+      unsafe = true
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[params]
+  author = "Gianmarco Sciortino"
+  description = "Exploring modern software development, AI-powered coding, and the future of engineering"
+  keywords = "blog,developer,AI,software engineering,agentic SDLC,vibe coding"
+  info = ["Business Development Telco&Media", "AI-Driven Innovation Strategist"]
+  dateFormat = "January 2, 2006"
+  colorScheme = "auto"
+  hideColorSchemeToggle = false
+  maxSeeAlsoItems = 5
+  customCSS = ["css/custom.css"]
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 1
+  url = "https://www.linkedin.com/in/gianmarco-sciortino-7a539614a/"
+
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url = "posts/"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
